@@ -1,0 +1,67 @@
+body{
+	font-family: Courier new;
+}
+
+header{
+	padding-top:10px;
+	min-height:10px;
+	padding: 0 10px 0 10px;
+	
+}
+header{
+	
+	margin: 0;
+	padding: 0;
+}
+header li{
+	border-right: 2px dotted black;
+	display:inline;
+}
+header a{
+
+	color: black;
+	display: inline;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+}
+header nav{
+	float:right;
+}
+
+header a:hover{
+	
+	border-bottom: 2px solid pink;
+	
+}
+header .current {
+	color: red;
+transition: 3s;
+	transform: (2.2);
+}
+
+
+.main p{
+	font-size: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+
+}
+.main img{
+	float:right;
+	margin-top: -120px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.main h3{
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.main .pb{
+	margin-top: -20px;
+	margin-left: 150px;
+}
+.main .ref{
+	margin-top: -20px;
+	margin-left: 80px;
+}
